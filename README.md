@@ -1,4 +1,4 @@
-# eCommerce Analysis Project
+# ECommerce Analysis Project
 
 ## Overview
 This project performs comprehensive analysis of eCommerce transaction data to derive actionable business insights. Through exploratory data analysis (EDA), predictive modeling, and customer segmentation, we aim to enhance business strategies using customer, product, and transaction data.
