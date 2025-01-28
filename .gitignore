@@ -1,0 +1,21 @@
+# .gitignore
+
+# Ignore .docx files in the reports directory
+reports/*.docx
+
+# Ignore specific files in the notebooks directory
+notebooks/EDA.py
+notebooks/EDA.ipynb
+notebooks/Lookalike.ipynb
+notebooks/Clustering.ipynb
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/

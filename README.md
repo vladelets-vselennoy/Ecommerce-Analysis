@@ -23,8 +23,8 @@ ecommerce-analysis
 │   └── visualization
 │       └── __init__.py
 ├── reports
-│   ├── EDA.pdf
-│   ├── Clustering.pdf
+│   ├── Business Insight Report.pdf
+│   ├── Customer Segmentation Report.pdf
 │   └── Lookalike.csv
 ├── requirements.txt
 └── README.md
@@ -34,7 +34,7 @@ ecommerce-analysis
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/vladelets-vselennoy/Ecommerce-Analysis
    ```
 
 2. Navigate to the project directory:
@@ -58,14 +58,14 @@ Comprehensive analysis of the dataset focusing on:
 - Customer Lifetime Value (CLV) calculation
 - RFM (Recency, Frequency, Monetary) Analysis
 
-### 2. Lookalike Modeling (Lookalike.ipynb)
+### 2. Lookalike Modeling (Lookalike.py)
 Customer similarity analysis including:
 - Data preprocessing and feature engineering
 - Similarity computation using cosine similarity
 - Generation of lookalike customer recommendations
 - Model validation and performance metrics
 
-### 3. Customer Segmentation (Clustering.ipynb)
+### 3. Customer Segmentation (Clustering.py)
 Advanced clustering analysis featuring:
 - Data preparation and feature selection
 - K-Means clustering implementation
@@ -81,8 +81,8 @@ Advanced clustering analysis featuring:
 - `Clustering.ipynb`: Customer segmentation analysis and results
 
 ### Reports
-- `EDA.pdf`: Comprehensive business insights derived from the exploratory analysis
-- `Clustering.pdf`: Detailed clustering analysis results including:
+- `Business Insight Report.pdf`: Comprehensive business insights derived from the exploratory analysis
+- `Customer Segmentation Report.pdf`: Detailed clustering analysis results including:
   - Optimal cluster count determination
   - Davies-Bouldin Index evaluation
   - Cluster visualization and interpretation
@@ -94,10 +94,8 @@ Advanced clustering analysis featuring:
 3. Leverage the Lookalike notebook to find similar customers for targeted marketing
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 
 
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## Contact
 For any queries regarding this project, please open an issue in the repository.# Ecommerce-Analysis
